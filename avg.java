@@ -7,12 +7,12 @@ public class avg {
         Arrays.sort(arr2);
         while(i<n && j<m){
             if(arr1[i]<=arr2[j]){
-                if(uni.isEmpty() || uni.get(uni.size()-1)!=arr1[i])
+                if(uni.size()==0 || uni.get(uni.size()-1)!=arr1[i])
                     uni.add(arr1[i]);
 
                 i++;
             }else{
-                if(uni.isEmpty() || uni.get(uni.size()-1)!=arr2[j])
+                if(uni.size()==0 || uni.get(uni.size()-1)!=arr2[j])
                     uni.add(arr2[j]);
 
                 j++;
@@ -37,9 +37,9 @@ public class avg {
             double val2 = uni.get(len/2);
             ans = (val1+val2)/2;
         }else{
-            ans = uni.get(len/2 + 1);
+            ans = uni.get(len/2);
         }
-        return (double)ans;
+        return ans;
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
