@@ -2,10 +2,10 @@ import java.util.*;
 class twoS{
 /*  public static int[] sum(int[] nums,int target){
         Map<Integer,Integer> mpp = new HashMap<>();
-        
+        int[] ans = new int[2];
         for(int i=0;i<nums.length;i++){
             int need = target - nums[i];
-            if(mpp.containskey(need)){
+            if(mpp.containsKey(need)){
                 ans[0] = mpp.get(need);
                 ans[1] = i;
                 return ans;
