@@ -50,6 +50,6 @@ class majority1{
         for(int i=0;i<lst.size();i++){
             System.out.print(lst.get(i)+" ");
         }
-        
+        sc.close();
     }
 }

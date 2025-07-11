@@ -33,5 +33,6 @@ public class isom {
         }else{
             System.out.print("Not an Isomorphic");
         }
+        sc.close();
     }
 }

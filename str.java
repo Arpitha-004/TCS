@@ -20,6 +20,7 @@ class str{
         for(int k=0;k<c.length();k++){
             System.out.print(c.charAt(k));
         }
+        sc.close();
     }
 }
 //TC O(m+n) : SC O(1)

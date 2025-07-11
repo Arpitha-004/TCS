@@ -36,5 +36,6 @@ public class withoutreverse {
             System.out.print(",");
         }
         System.out.print("]");
+        sc.close();
     }
 }

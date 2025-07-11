@@ -19,5 +19,6 @@ public class reverse {
         for(char i : c){
             System.out.print(i);
         }
+        sc.close();
     }
 }

@@ -28,5 +28,6 @@ class matrix{
         }
         int ans = diff(arr);
         System.out.print(ans);
+        sc.close();
     }
 }

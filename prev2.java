@@ -8,5 +8,6 @@ class prev2{
             sum += N*i;
         }
         System.out.println(sum);   
+        sc.close();
     }
 }

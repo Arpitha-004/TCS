@@ -19,5 +19,6 @@ class containdup {
         }
         boolean val = find(nums);
         System.out.print(val);
+        sc.close();
     }
 }

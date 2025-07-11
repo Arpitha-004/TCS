@@ -23,5 +23,6 @@ class validParen {
         String s = sc.nextLine();
         boolean ans = valid(s);
         System.out.println(ans);
+        sc.close();
     }
 }

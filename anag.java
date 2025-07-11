@@ -29,7 +29,7 @@ public class anag {
         }else{
             System.out.print("Not an Anagram");
         }
-        
+        sc.close();
     }
 
 }

@@ -39,5 +39,6 @@ class medium{
         }else{
             System.out.print("False");
         }
+        sc.close();
     }
 }

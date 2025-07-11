@@ -56,5 +56,6 @@ public class avg {
         }
         double res = unionMid(a1,a2,n,m);
         System.out.print(res);
+        sc.close();
     }
 }

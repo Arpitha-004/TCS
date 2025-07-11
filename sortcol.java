@@ -33,6 +33,6 @@ public class sortcol {
         for(int i : arr){
             System.out.print(i+" ");
         }
-        
+        sc.close();
     }
 }

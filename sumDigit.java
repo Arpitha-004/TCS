@@ -11,5 +11,6 @@ class sumDigit{
             }
         }
         System.out.print(sum);
+        sc.close();
     }
 }

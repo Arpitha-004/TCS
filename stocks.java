@@ -19,5 +19,6 @@ class stocks {
         }
         int ans = best(prices);
         System.out.println(ans);
+        sc.close();
     }
 }

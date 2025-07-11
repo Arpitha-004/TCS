@@ -27,5 +27,6 @@ class conOnes{
         }
         int val = find(nums);
         System.out.print(val);
+        sc.close();
     }
 }

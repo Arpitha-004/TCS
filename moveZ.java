@@ -26,5 +26,6 @@ class moveZ {
         for(int i:a){
             System.out.print(i+" ");
         }
+        sc.close();
     }
 }

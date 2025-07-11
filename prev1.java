@@ -27,5 +27,6 @@ class prev1{
         for(int i : arrN){
             System.out.print(i+" ");
         }
+        sc.close();
     } 
 }

@@ -36,5 +36,6 @@ public class rotate {
             System.out.print(",");
         }
         System.out.print("]");
+        sc.close();
     }
 }

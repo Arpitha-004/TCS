@@ -7,5 +7,6 @@ class decToBin {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         decBin(N);
+        sc.close();
     }
 }
