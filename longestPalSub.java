@@ -1,0 +1,32 @@
+import java.util.*;
+class longestPalSub {
+    public static String longest(String s){
+        int start=0,end=0;
+        for(int i=0;i<s.length();i++){
+            int len1 = expandMid(s,i,i);
+            int len2 = expandMid(s,i,i+1);
+            int len = Math.max(len1,len2);
+            if(len>end-start){
+                start = i-(len-1)/2;
+                end = i+(len)/2;
+            }
+        }
+        return s.substring(start,end+1);
+    }
+    public static int expandMid(String s,int left, int right){
+        if(s==null || left>right){
+            return 0;
+        }
+        while(left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
+            left--;
+            right++;
+        }
+        return right-left-1;
+    }
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        System.out.println(longest(s));
+    }
+}
